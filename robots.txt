@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://www.toiture-prestige33.fr/sitemap.xml
