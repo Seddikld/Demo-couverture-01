@@ -1,0 +1,15 @@
+{
+  "name": "glowhomefinds-tools",
+  "private": true,
+  "description": "Build scripts for the GlowHomeFinds static site (images + pages).",
+  "scripts": {
+    "build": "node build-images.js && node build-pages.js",
+    "images": "node build-images.js",
+    "pages": "node build-pages.js"
+  },
+  "devDependencies": {
+    "@expo-google-fonts/poppins": "*",
+    "@resvg/resvg-js": "*",
+    "sharp": "*"
+  }
+}
